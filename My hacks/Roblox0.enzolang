@@ -1,0 +1,14 @@
+/usr/bin/enzolang.bin  
+# coding=utf-8  
+#import "roblox.client"  
+#import "prompt.enzolang.pt.br"  
+hack=enzolang  
+fly,MOVE,PLAYER "xyz"  
+laserEyes,LIGHT,EYES COLOR "red"  
+audio,PUBLIC,AUDIO_PLAYER  
+CrashGame,crash "com.roblox.client"  
+attack.ip.prompt.pt.br="ROUBAR IP E TENTAR BRUTEFORCE PARA ENTRAR NA CONTA E PEGAR ROBUX E APAGAR CONTA"  
+scan,NETWORK "192.168.0.1"  
+print,"ROBLOX PORT OPEN"  
+real,attack "SQL_INJECTION"  
+print,"Vulnerabilidade encontrada"
