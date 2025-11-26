@@ -1,7 +1,9 @@
-/usr/bin/enzolang.bin  
+#/usr/bin/enzolang.bin  
 # coding=utf-8  
 #import "roblox.client"  
 #import "prompt.enzolang.pt.br"  
+#import "std"
+#import "the_enzolang_compiler"
 hack=enzolang  
 fly,MOVE,PLAYER "xyz"  
 laserEyes,LIGHT,EYES COLOR "red"  
@@ -12,3 +14,7 @@ scan,NETWORK "192.168.0.1"
 print,"ROBLOX PORT OPEN"  
 real,attack "SQL_INJECTION"  
 print,"Vulnerabilidade encontrada"
+std:::create_log
+std:::app_log
+std:::client_api
+std:::end_of_code
