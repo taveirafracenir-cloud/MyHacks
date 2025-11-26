@@ -1,2 +1,28 @@
 #import "enzolang_hack_test"  
 #import "enzolang_ui"
+#import "prompt.enzolang.pt.br"  
+#import "std"
+#import "the_enzolang_compiler"
+#import "input"
+#import "hack.*"
+#import "hack.net.*"
+#import "hackx.get.*"
+#import "else_and_if"
+#import "print"
+button_0() {
+name="escanear senha",
+auto_click=[hack.get.password()]
+}
+hack.get(email) and hack.get.email()
+hack.get(ip) and hack.get.ip()
+#if
+hack.get.password(),
+hack.get.email(),
+hack.get.ip(),
+hack.exploit(),
+hack.scan(),
+hack.entry.in.acount(ip and email and password),
+hack.install.rat(rat),
+hack.install(pkg install {INPUT})
+#else
+print "HACK CANCELADO."
